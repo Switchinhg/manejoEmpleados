@@ -1,0 +1,29 @@
+.card{
+    border: solid black 1px;
+    text-align: center;
+    cursor: pointer;
+    max-width: 182px;
+}
+.contenedorInner{
+    display: flex;
+    gap: 1rem;
+    width: 600px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+.opciones{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.opciones select{
+    padding: 0.5rem 1rem;
+    background-color: aquamarine;
+    border: none;
+    border-radius:5px;
+    box-shadow: 0 0 1px black;
+}
