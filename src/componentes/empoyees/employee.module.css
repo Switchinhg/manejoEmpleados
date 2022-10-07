@@ -1,5 +1,5 @@
 .card{
-    border: solid black 1px;
+    border:solid 1px rgba(0, 0, 0, 0.199);
     text-align: center;
     cursor: pointer;
     max-width: 182px;
@@ -21,9 +21,15 @@
     margin: 2rem 0;
 }
 .opciones select{
+    margin: 0 2rem;
+    width: 500px;
     padding: 0.5rem 1rem;
-    background-color: aquamarine;
+    background-color: white ;
+    color: black;
     border: none;
     border-radius:5px;
     box-shadow: 0 0 1px black;
 }
+.seleccionado{
+    box-shadow: 0 0 5px rgb(0, 0, 0) ;
+  }
